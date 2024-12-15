@@ -11,7 +11,7 @@ const MagicCursor = () => {
         `left: ${e.clientX}px; top: ${e.clientY}px;`;
     });
   }, []);
-
+//test
   return (
     <>
       <div className="cursor"></div>

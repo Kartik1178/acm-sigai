@@ -17,7 +17,7 @@ const ContactSection = () => {
                     type="text"
                     id="name"
                     name="your-name"
-                    placeholder="Name "
+                    placeholder="Name"
                     required
                   />
                 </div>
