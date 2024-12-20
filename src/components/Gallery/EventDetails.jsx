@@ -24,5 +24,9 @@ imageCount: 6},
 {
     "index":6,
     "eventName":"Quiz Event",
-    imageCount: 7}
+    imageCount: 7},
+    {
+        "index":7,
+        "eventName":"The Evolution and Future of AI",
+        imageCount: 5}
 ]

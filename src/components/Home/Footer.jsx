@@ -118,7 +118,9 @@ const Footer = () => {
         </div>
         <a href="https://www.linkedin.com/in/kartikeya-pusapati-bb151430b/">
         <p className="custom-footer__copy authornpm ">Created By Kartikeya Pusapati</p>
-        </a>
+       </a>
+       <div> Last Updated: 4-02-2025</div>
+
         <div className="custom-footer__bottom">
 
           <p className="custom-footer__copy">© {new Date().getFullYear()} ACM SIGAI. All Rights Reserved.</p>
