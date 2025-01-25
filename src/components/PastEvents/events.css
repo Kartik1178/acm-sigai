@@ -1,0 +1,9 @@
+.zoomed-out{
+    transform: scale(2);
+    object-fit: contain;
+}
+.ep-blog__img img {
+    object-fit: contain;
+    border-radius: 20px;
+    width:100%;
+}

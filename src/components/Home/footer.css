@@ -1,0 +1,150 @@
+/* Custom Footer Styles */
+.custom-footer {
+    padding: 60px 0;
+    background-color: #1f1c35; /* Dark background */
+    color: #fff; /* White text for contrast */
+}
+
+.custom-footer__top {
+    border-bottom: 1px solid #444; /* Darker border */
+    padding-bottom: 30px;
+}
+
+.custom-footer__logo-img {
+    width: 120px;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2); /* Light box-shadow */
+}
+
+.custom-footer__text {
+    font-size: 14px;
+    color: #ddd; /* Lighter gray text */
+    margin-bottom: 15px;
+}
+
+.custom-footer__contact {
+    margin-top: 20px;
+}
+
+.custom-footer__contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.author:hover{
+    text-decoration: underline;
+    color: #0056b3;
+}
+.footer-contact{
+    display: flex;
+    flex-direction: column;
+}
+.custom-footer__contact-icon {
+    font-size: 20px;
+    color: #007bff; /* Accent color for icons */
+    margin-right: 10px;
+}
+
+.custom-footer__contact-info p {
+    margin: 0;
+    font-weight: bold;
+    color: #fff; /* White text for clarity */
+}
+
+.custom-footer__contact-info a {
+    color: #007bff; /* Link color with hover effect */
+    text-decoration: none;
+}
+
+.custom-footer__map iframe {
+    width: 100%;
+    border: 0;
+    margin-bottom: 30px;
+}
+
+.custom-footer__social {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; /* Ensure items are wrapped */
+}
+
+.custom-footer__social-title {
+    font-weight: bold;
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+}
+
+.custom-footer__social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Ensure wrapping for large screens */
+    justify-content: space-between; /* Space out the icons */
+    width: 100%; /* Full width to ensure row layout on large screens */
+}
+
+.custom-footer__social-links li {
+    width: 48%; /* Two items per row */
+    margin-bottom: 15px; /* Margin between items in the row */
+    display: inline-block; /* Ensures they are displayed in a row */
+}
+
+.custom-footer__social-links li a {
+    color: #007bff; /* Accent color */
+    font-size: 18px;
+}
+
+.custom-footer__social-links li a:hover {
+    color: #0056b3; /* Darker accent on hover */
+}
+
+.custom-footer__widget-title {
+    font-weight: bold;
+    color: #fff; /* White text */
+    margin-bottom: 15px;
+}
+
+/* Ensure Quick Links and Follow Us appear in second row on large screens */
+.custom-footer__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Ensure rows for large screens */
+    justify-content: space-between; /* Space out the items */
+    width: 100%; /* Full width */
+}
+
+.custom-footer__links li {
+    width: 48%; /* Two items per row */
+    margin-bottom: 10px;
+}
+
+.custom-footer__links li a {
+    color: #ddd; /* Lighter gray text */
+    text-decoration: none;
+}
+
+.custom-footer__links li a:hover {
+    color: #007bff; /* Accent color on hover */
+}
+
+/* Responsive: Media query for large screens only */
+@media (min-width: 992px) {
+    .custom-footer__links {
+        flex-direction: row; /* Ensure two rows on large screens */
+        justify-content: space-between; /* Space out the items */
+    }
+}
+
+.custom-footer__bottom {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.custom-footer__copy {
+    font-size: 14px;
+    color: #ddd; /* Lighter gray text */
+}

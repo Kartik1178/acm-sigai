@@ -1,0 +1,115 @@
+/* General Reset */
+body, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  /* Navbar Container */
+  .navbar-container {
+    position: sticky;
+    top: 0;
+    z-index: 9999; /* High Z-index */
+    background-color: #fff; /* White Background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle Shadow */
+    width: 100%;
+  }
+  .acm-logo{
+    scale:130%;
+  }
+  /* Navbar */
+  .navbar {
+    padding: 10px 20px;
+  }
+  
+  .navbar-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Logo Section */
+  .navbar-logos {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .navbar-logos img {
+    height: 50px;
+    width: auto;
+  }
+  
+  /* Navigation Menu */
+  .navbar-menu ul {
+    display: flex;
+    gap: 20px; /* Space between menu items */
+    font-weight: bold; /* Bold font for all links */
+    align-items: center;
+  }
+  
+  .navbar-menu ul li {
+    position: relative;
+  }
+  
+  .navbar-menu ul li a {
+    color: #000; /* Black Text */
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-menu ul li a:hover {
+    color: #007bff; /* Highlight on hover */
+  }
+  
+  /* Dropdown Menu */
+  .navbar-menu ul li .dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+    z-index: 999;
+  }
+  
+  .navbar-menu ul li:hover .dropdown {
+    display: block;
+  }
+  
+  .navbar-menu ul li .dropdown li {
+    padding: 5px 15px;
+  }
+  
+  .navbar-menu ul li .dropdown li a {
+    font-size: 14px;
+    color: #000;
+  }
+  
+  .navbar-menu ul li .dropdown li a:hover {
+    color: #007bff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar-inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navbar-menu ul {
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+  
+    .navbar-logos {
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+  }
+  .navbar-logos .srm-logo {
+    height: 65px;
+  }

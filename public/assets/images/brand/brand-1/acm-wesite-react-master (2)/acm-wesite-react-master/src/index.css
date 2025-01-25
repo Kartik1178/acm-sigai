@@ -1,0 +1,93 @@
+@import "/assets/section-css/reset.css";
+@import "/assets/section-css/header.css";
+@import "/assets/section-css/hero.css";
+@import "/assets/section-css/about.css";
+@import "/assets/section-css/category.css";
+@import "/assets/section-css/course.css";
+@import "/assets/section-css/brand.css";
+@import "/assets/section-css/team.css";
+@import "/assets/section-css/funfact.css";
+@import "/assets/section-css/faq.css";
+@import "/assets/section-css/testimonial.css";
+@import "/assets/section-css/video.css";
+@import "/assets/section-css/blog.css";
+@import "/assets/section-css/group-study.css";
+@import "/assets/section-css/service.css";
+@import "/assets/section-css/pricing.css";
+@import "/assets/section-css/event.css";
+@import "/assets/section-css/product.css";
+@import "/assets/section-css/breadcrumbs.css";
+@import "/assets/section-css/contact.css";
+@import "/assets/section-css/auth.css";
+@import "/assets/section-css/error.css";
+@import "/assets/section-css/mobile-menu.css";
+@import "/assets/section-css/footer.css";
+
+.event-mode {
+  color: white;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: 10px;
+  padding: 8px 12px;
+  z-index: 9999;
+}
+.categories {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.categories .category {
+  padding: 8px 12px;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.categories .category.active {
+  background-color: var(--ep-primary-color-2) !important;
+}
+.gallery-container {
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  /* background-color: red; */
+  position: relative;
+  cursor: pointer;
+}
+.gallery-container .info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  opacity: 0;
+  transform: rotate3d(4, 0, 0, 90deg);
+  transition: all 0.5s linear;
+  transform-origin: bottom;
+  background: linear-gradient(0deg, #1f1c35 20%, transparent 60%);
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 1rem;
+}
+.gallery-container img {
+  width: 100%;
+  height: 100%;
+}
+.gallery-container:hover .info {
+  transform: rotate3d(4, 0, 0, 0deg);
+  opacity: 1 !important;
+}
+.ep-contact__form .nice-select {
+  width: 100% !important;
+  margin-bottom: 20px !important;
+  border-radius: 20px !important;
+  height: 58px;
+}

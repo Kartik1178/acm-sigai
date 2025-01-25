@@ -1,0 +1,29 @@
+.top-row{
+    display: flex; 
+    flex-direction: row;
+   
+
+} 
+.close-button{
+  position: absolute;  
+  right: 5%;
+  padding: 0px;
+top:1% 
+}
+
+.close-button:hover{
+    color:firebrick;
+
+}
+.popup-container{
+    position:fixed;
+    height:100vh !important;
+    top:0;
+    z-index: 500;
+width: 100%;
+
+} 
+.popup{
+    width: 90%;
+height:50vh !important;
+}
