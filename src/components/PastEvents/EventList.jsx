@@ -37,7 +37,56 @@ const EventList = () => {
             className:'zoomed-out',
             title: 'Quizizz Session',
             description: 'An interactive quiz session focused on Basic Programming Concepts. Join using the code 3171 7712 at 11:00 AM to 12:00 PM.'
+        },
+        {
+            mode: 'Online',
+            image:"assets/images/event/event-2/1.png",
+            date: { day: 9, month: 'Oct' },
+            location: 'Online',
+            className:'zoomed-out',
+            title: 'PLACEMENT TALK WITH MR. NILESH SINGH',
+            description: 'An insightful session by Mr. Nilesh Singh, Associate Product Manager at Unilever, sharing tips and strategies to excel in campus placements and build a successful career.'
+        },
+        {
+            mode: 'Online',
+            image:"assets/images/event/event-3/2.png",
+            date: { day: 12, month: '11' },
+            location: 'Online',
+            className:'zoomed-out',
+            title: 'AI with Integrity',
+            description: 'Ensuring Ethics in the Age of Innovation with Yukta Kulkarni (12.11.2024). A thought-provoking discussion on ethical AI practices, led by alumna Yukta Kulkarni, focusing on balancing innovation with responsibility.'
+        },
+        {
+            mode: 'Online',
+            image:"assets/images/event/event-5/2.png",
+            date: { day: 26, month: '12' },
+            location: 'Online',
+            className:'zoomed-out',
+            title: 'No Code? No Problem! ',
+            description: 'Attention is All You Need with Mr. Vikash PR (26.12.2024). A hands-on session exploring the power of no-code tools and the role of transformer models in simplifying AI development, presented by Mr. Vikash PR.'
+        },
+        {
+            mode: 'Online',
+            image:"assets/images/event/event-4/1.png",
+            date: { day: 4, month: '01' },
+            location: 'Online',
+            className:'zoomed-out',
+            title: 'CodeSprint Coding Contest',
+            description:'A thrilling competitive programming contest designed to challenge problem-solving skills and coding efficiency.'
+        },
+        {
+            mode: 'Online',
+            image:"assets/images/event/event-6/1.png",
+            date: { day: 5, month: '01' },
+            location: 'Online',
+            className:'zoomed-out',
+            title: 'Concept Quest Quiz Session ',
+            description:'A fun and interactive quiz testing participants’ knowledge of computer science concepts and tech trends.'
         }
+        
+
+
+
     ];
 
     return (
