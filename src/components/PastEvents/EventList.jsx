@@ -7,7 +7,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image: 'assets/images/event/event-1/2.png',
-            date: { day: 9, month: 'Oct' },
+            date: { day: 9, month: 'Oct 2024' },
             location: 'Google Meet',
             title: 'Placement Talk',
             description: 'An insightful Placement talk co-hosted by ACM SIGAI'
@@ -15,7 +15,7 @@ const EventList = () => {
         {
             mode: 'Offline',
             image: 'assets/images/event/event-1/3.png',
-            date: { day: 4, month: 'Oct' },
+            date: { day: 4, month: 'Oct 2024' },
             location: 'IMAC LAB, SRMIST, KTR',
             title: 'Inauguration Event',
             description: 'Inaguration of ACM SIGAI student chapter'
@@ -23,7 +23,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image: 'assets/images/events/hackerrank.jpeg',
-            date: { day: 4, month: 'Jan' },
+            date: { day: 4, month: 'Jan 2025' },
             location: 'HackerRank Platform',
             className:'zoomed-out',
             title: 'HackerRank Contest',
@@ -32,7 +32,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image: 'assets/images/events/quizziz.jpeg',
-            date: { day: 5, month: 'Jan' },
+            date: { day: 5, month: 'Jan 2024' },
             location: 'Quizizz Platform',
             className:'zoomed-out',
             title: 'Quizizz Session',
@@ -41,7 +41,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image:"assets/images/event/event-2/1.png",
-            date: { day: 9, month: 'Oct' },
+            date: { day: 9, month: 'Oct 2024' },
             location: 'Online',
             className:'zoomed-out',
             title: 'PLACEMENT TALK WITH MR. NILESH SINGH',
@@ -50,7 +50,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image:"assets/images/event/event-3/2.png",
-            date: { day: 12, month: '11' },
+            date: { day: 12, month: 'Nov 2024' },
             location: 'Online',
             className:'zoomed-out',
             title: 'AI with Integrity',
@@ -59,7 +59,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image:"assets/images/event/event-5/2.png",
-            date: { day: 26, month: '12' },
+            date: { day: 26, month: 'Dec 2024' },
             location: 'Online',
             className:'zoomed-out',
             title: 'No Code? No Problem! ',
@@ -68,7 +68,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image:"assets/images/event/event-4/1.png",
-            date: { day: 4, month: '01' },
+            date: { day: 4, month: 'Jan 2025' },
             location: 'Online',
             className:'zoomed-out',
             title: 'CodeSprint Coding Contest',
@@ -77,7 +77,7 @@ const EventList = () => {
         {
             mode: 'Online',
             image:"assets/images/event/event-6/1.png",
-            date: { day: 5, month: '01' },
+            date: { day: 5, month: 'Jan 2025' },
             location: 'Online',
             className:'zoomed-out',
             title: 'Concept Quest Quiz Session ',
