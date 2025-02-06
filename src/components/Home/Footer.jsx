@@ -119,7 +119,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/in/kartikeya-pusapati-bb151430b/">
         <p className="custom-footer__copy authornpm ">Created By Kartikeya Pusapati</p>
        </a>
-       <div> Last Updated: 4-02-2025</div>
+       <div className="text-grey"> Last Updated: 4-02-2025</div>
 
         <div className="custom-footer__bottom">
 
