@@ -17,17 +17,9 @@ const EventList = () => {
       date: { day: 23, month: "Feb" },
       location: "SRMIST,KTR",
       title: "DataQuest",
-      description: `SRM ACM SIGAI DataQuest: Data Science Basics\n
-📅 Date: February 23rd, 2025 (Sunday)\n
-🕚 Time: 11:00 AM - 12:00 PM\n
-📌 Topic: Data Science Basics\n
-🖥 Quizizz Session\n
-🔑 Join Code: 6173 0600\n
-\n
-💡 Description:\n
-Test your Data Science knowledge in this interactive Quizizz session hosted by SRM ACM SIGAI! Challenge yourself with engaging questions on Python for Data Science, data manipulation, and fundamental analytics while competing with peers in a fun, gamified learning environment.\n
-\n
-🎖 Participation certificates will be awarded to all participants.\n
+      description: `Test your Data Science knowledge in this interactive Quizizz session hosted by SRM ACM SIGAI! Challenge yourself with engaging questions on Python for Data Science, data manipulation, and fundamental analytics while competing with peers in a fun, gamified learning environment.
+
+🎖 Participation certificates will be awarded to all participants.
 🎯 Don’t miss out! Join us and take your first step into Data Science! 🚀`,
     },
     {
@@ -36,15 +28,8 @@ Test your Data Science knowledge in this interactive Quizizz session hosted by S
       date: { day: 22, month: "Feb" },
       location: "SRMIST,KTR",
       title: "DataSprint",
-      description: `SRM ACM SIGAI DataSprint: Python Edition\n
-📅 Date: February 22nd, 2025 (Saturday)\n
-🕕 Time: 6:00 PM - 9:00 PM\n
-📌 Topic: Python for Data Science\n
-🖥 HackerRank Challenge: Python Basics\n
-🔗 Contest Link: https://www.hackerrank.com/srm-acm-sigai-datasprint-python-edition\n
-\n
-💡 Description:\n
-Join the SRM ACM SIGAI DataSprint: Python Edition, a hands-on HackerRank contest designed to test and enhance your Python programming skills for Data Science.\n
+      description: `
+Join the SRM ACM SIGAI DataSprint: Python Edition, a hands-on HackerRank contest designed to test and enhance your Python programming skills for Data Science.
 🎖 Participation certificates will be provided to all participants.`,
     },
   ];
