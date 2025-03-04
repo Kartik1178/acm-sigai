@@ -18,7 +18,6 @@ const EventList = () => {
       location: "SRMIST,KTR",
       title: "DataQuest",
       description: `Test your Data Science knowledge in this interactive Quizizz session hosted by SRM ACM SIGAI! Challenge yourself with engaging questions on Python for Data Science, data manipulation, and fundamental analytics while competing with peers in a fun, gamified learning environment.
-
 🎖 Participation certificates will be awarded to all participants.
 🎯 Don’t miss out! Join us and take your first step into Data Science! 🚀`,
     },
